@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Thierno Souleymane BA (Nini Code), étudiant en 3ème année d'informatique. Découvrez mes projets, compétences et expériences.">
+    <meta name="author" content="Thierno Souleymane BA (Nini Code)">
+    <title>Amadou Diawara - Portfolio Développeur</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Tu peux choisir une police Google Fonts si tu veux un style particulier -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#hero" class="logo">Amadou<span class="logo-highlight">Code</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#education" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Papa Amadou Diawara</h1>
+                <p class="subtitle">Alias <span class="highlight">Amadou</span></p>
+                <p class="typed-text-container">Je suis <span class="typed-text"></span><span class="cursor"> </span></p>
+                <div class="hero-buttons">
+                    <!--Remplacez le lien par le chemin vers votre CV-->
+                    <a href="CV/Mon CV.pdf" download="Mon CV.pdf" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Télécharger CV
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">Mes Projets <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="social-icons-hero">
+                <!-- Remplacez les liens par vos profils -->
+                <a href="https://github.com/amadou-dwr6" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/papa-amadou-diawara-8a9294322/" target="_blank" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <!-- <a href="https://twitter.com/ton_twitter" target="_blank" aria-label="Twitter" title="Twitter"><i class="fab fa-twitter"></i></a> -->
+            </div>
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll vers la section À Propos">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <section id="about" class="container section-reveal">
+            <h2><i class="fas fa-user-tie"></i> À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/mes photos '.jpg" alt="Photo de Papa Amadou DIAWARA" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <h3>Salut, Mon nom est <strong> Papa Amadou DIAWARA</strong> </h3>
+                    <p>Je suis étudiant passionné en <strong>2ème année d'informatique</strong>.En faite l'informatique est plus qu'une passion pour moi c'est un chemin de vie que j'ai choisi</p>
+                    <p>J'adore décortiquer des problèmes complexes et construire des solutions élégantes et performantes, qu'il s'agisse d'algorithmie, d'optimisation système ou de design d'architecture.</p>
+                    <p>Mon ambition ? Devenir un expert polyvalent, à l'aise autant sur le front-end que le back-end, mais aussi curieux des infrastructures réseau, de la cybersécurité et des technologies émergentes. Chaque projet est pour moi une opportunité d'approfondir mes connaissances, qu'il s'agisse de développer une API robuste, d'automatiser des tâches ou d'explorer le potentiel de l'IA.</p>
+                    <p>En plus de mes études, je m'investis dans des projets open source et des communautés tech pour partager mes connaissances et apprendre des autres.</p>
+                    <p><strong>En dehors de l'écran, je suis un passionné de bidouillage technique</strong>. J'adore créer des home labs pour expérimenter avec des configurations réseau, tester des systèmes d'exploitation ou développer des applications dans un environnement contrôlé. Je crois fermement que la pratique est la clé pour maîtriser les concepts théoriques.</p>
+                    <p>Je suis toujours à la recherche de nouveaux défis et opportunités pour apprendre et grandir dans le domaine de l'informatique. Si vous avez un projet intéressant ou une idée à partager, n'hésitez pas à me contacter !</p>
+                    <p>En dehors de l'écran, j'apprécie : les défis de programmation compétitive, explorer les dernières innovations tech.</p>
+                    <div class="about-stats">
+                        <div>
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Années d'Exp. (Études)</span>
+                        </div>
+                        <div>
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projets Réalisés</span>
+                        </div>
+                        <div>
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Langages acquis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container section-reveal">
+            <h2><i class="fas fa-cogs"></i> Mes Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5 skill-icon" style="color: #e34f26;"></i>
+                    <h3>HTML</h3>
+                    <div class="skill-level"><div style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt skill-icon" style="color: #1572b6;"></i>
+                    <h3>CSS</h3>
+                    <div class="skill-level"><div style="width: 75%;"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square skill-icon" style="color: #f7df1e;"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-level"><div style="width: 37%;"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python skill-icon" style="color: #3776ab;"></i>
+                    <h3>Python</h3>
+                    <div class="skill-level"><div style="width: 35%;"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java skill-icon" style="color: #007396;"></i>
+                    <h3>Java</h3>
+                    <div class="skill-level"><div style="width: 25%;"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon" style="color: #4db33d;"></i>
+                    <h3>SQL (MySQL)</h3>
+                    <div class="skill-level"><div style="width: 70%;"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react skill-icon" style="color: #61dafb;"></i>
+                    <h3>React.js (Notions)</h3>
+                    <div class="skill-level"><div style="width: 20%;"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-node-js skill-icon" style="color: #339933;"></i>
+                    <h3>Node.js (Notions)</h3>
+                    <div class="skill-level"><div style="width: 20%;"></div></div>
+                </div>
+                 <div class="skill-card">
+                    <i class="fab fa-git-alt skill-icon" style="color: #f05032;"></i>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-level"><div style="width: 35%;"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users-cog skill-icon" style="color: #7d3c98;"></i>
+                    <h3>Soft Skills</h3>
+                    <p class="soft-skills-list">Résolution de problèmes, Travail d'équipe, Communication, Adaptabilité, Autonomie, Curiosité.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container section-reveal">
+            <h2><i class="fas fa-project-diagram"></i> Mes Projets Significatifs</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Amadou Diawara - Portfolio Développeur - Google Chrome 28_05_2025 08_29_57.png" alt="Aperçu du Projet 1">
+                         
+                    </div>
+                    <div class="project-info">
+                        <h3>Mon Portfolio </h3>
+                        <p>Première version de mon portfolio personnel, développé avec HTML, CSS et JavaScript pur pour mettre en pratique les bases du développement web.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                     <div class="project-image">
+                        <img src="images/footzone-screenshot.png" alt="Aperçu du Projet 2">
+                         
+                    </div>
+                    <div class="project-info">
+                        <h3>FootZone</h3>
+                        <p>Etant moi meme un passionné de football j'ai réalisé un projet permettant au utilisateurs de pouvoir s'inscrire et organiser des tournois.</p>
+                         <div class="project-tags">
+                            <span>JavaScript</span><span>HTML</span><span>CSS</span><span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+<div class="project-card">
+                     <div class="project-image">
+                        <img src="images/" alt="Aperçu du Projet 3">
+                         
+                    </div>
+                    <div class="project-info">
+                        <h3> Gestion Contact </h3>
+                        <p>Un project commun qui permet la gestion des clients d'une entreprise </p>
+                         <div class="project-tags">
+                            <span>PHP</span><span>HTML</span><span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                     <div class="project-image">
+                        <img src="images/" alt="Aperçu du Projet 3">
+                         
+                    </div>
+                    <div class="project-info">
+                        <h3> SUNUYOON </h3>
+                        <p>Une plateforme qui permet à l'utilisateur de connaitre quelle ligne prendre pour aller à un tel endroit et acheter un ticket en ligne. </p>
+                         <div class="project-tags">
+                            <span>PHP</span><span>HTML</span><span>CSS</span>
+                        </div>
+                    </div>
+                </div></div>
+ 
+                <!-- Ajoute d'autres projets en copiant la structure .project-card -->
+            </div>
+        </section>
+
+        <section id="education" class="container section-reveal">
+            <h2><i class="fas fa-graduation-cap"></i> Mon Parcours Académique</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                    <div class="timeline-content">
+                        <h3>Licence Informatique de gestion - 2ème Année (en cours)</h3>
+                        <p><strong>IAM //École</strong> - Dakar, Senegal</p>
+                        <span class="date">Depuis [2024]</span>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <h3>Baccalauréat Série L2 </h3>
+                        <p><strong>CEMAD</strong> - Dakar, Senegal</p>
+                        <span class="date">Obtenu en [2023]</span>
+                      
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                    <div class="timeline-content">
+                        <h3>Brevet de fin etudes moyen </h3>
+                        <p><strong>MANDELA</strong> - Dakar, Senegal</p>
+                        <span class="date">Obtenu en [2020]</span>
+                      
+                    </div>
+                </div>
+                <!-- Ajoute d'autres formations si nécessaire -->
+            </div>
+        </section>
+
+        <section id="contact" class="container section-reveal">
+            <h2><i class="fas fa-envelope-open-text"></i> Parlons de Votre Projet !</h2>
+            <p class="contact-intro">Je suis toujours ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter.</p>
+            <div class="contact-wrapper">
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Remplacez par votre clé d'accès Web3Forms -->
+                    <input type="hidden" name="apikey" value="18490741-e72d-40cc-a6dd-ea4000f709ed">
+                    <input type="hidden" name="subject" value="Nouveau message depuis Portfolio amadou-dwr6">
+                    <input type="checkbox" name="botcheck" style="display: none;"> <!-- Anti-spam -->
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Votre Nom Complet">
+                        <label for="name"></label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Votre Adresse Email">
+                        <label for="email"></label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" required placeholder="Votre Message"></textarea>
+                        <label for="message"></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Envoyer</button>
+                    <div id="form-status"></div>
+                </form>
+                <div class="contact-info">
+                    <h3>Mes Coordonnées</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Dakar, Senegal</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:ton.email.pro@example.com">diawaraamadou34@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+XX XXX XX XX XX">784582792</a></p>
+                    <h4>Suivez-moi aussi sur :</h4>
+                    <div class="contact-social-icons">
+                        <a href="https://github.com/amadou-dwr6" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/papa-amadou-diawara-8a9294322/" target="_blank" aria-label="linkedin" title="linkedin"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#hero" class="back-to-top" title="Retour en haut"><i class="fas fa-chevron-up"></i></a>
+        <p>© <span id="currentYear"></span> Papa Amadou DIAWARA. Conçu avec <i class="fas fa-heart" style="color: #e25555;"></i>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

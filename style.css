@@ -1,7 +1,7 @@
 /* VARIABLES CSS */
 :root {
-    --primary-color: #91ff00; /* Bleu vibrant principal */
-    --secondary-color: #59e618ec; /* Turquoise pour accents et hover */
+    --primary-color: #e99518; /* Bleu vibrant principal */
+    --secondary-color: #e99518; /* Turquoise pour accents et hover */
     --background-color: #041f18; /* Fond sombre principal */
     --surface-color: #031f18; /* Fond pour cartes, sections internes */
     --surface-hover-color: #2a2a2a;

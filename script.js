@@ -191,4 +191,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Initialisation ---
     if (textArray.length) setTimeout(type, newTextDelay + 250); // Démarrer l'effet de frappe
+    const btn = document.getElementById("theme-btn");
 });

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formStatus = document.getElementById('form-status');
 
     // --- Textes pour l'effet de frappe ---
-    const textArray = ["Développeur Web Junior.", "Passionné par l'innovation.", "Créatif et rigoureux.", "Étudiant en Informatique."];
+    const textArray = ["Network & Systems.", "Passionné par l'innovation.", "Créatif et rigoureux.", "Étudiant en Informatique."];
     const typingDelay = 100;
     const erasingDelay = 50;
     const newTextDelay = 2000; // Délai avant de commencer un nouveau texte
@@ -191,4 +191,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Initialisation ---
     if (textArray.length) setTimeout(type, newTextDelay + 250); // Démarrer l'effet de frappe
+    const btn = document.getElementById("theme-btn");
 });
